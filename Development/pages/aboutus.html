@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Ashutosh Basnet">
+    <meta name="description" content="About Us Page">
+    <meta name="keyword" content="About Us, Time Treasure, Watch Store">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- script tag for linking external JS -->
+     <script src="../js/script.js"></script>
+    
+    <style>
+
+        /*div class for profile*/
+        .pfp {
+            margin-left: 15%;
+            margin-right: 15%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            width: 70%;
+            margin-top: 100px;
+            margin-bottom: 10px;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .p1 img {
+            height: 120px;
+            border: 2px solid;
+            width: 120px;
+            border-radius: 50%;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        main {
+            margin: 5% 10% 5% 10%;
+        }
+
+        /* unvisited link */
+        a:link {
+            color: black;
+        }
+
+        /* visited link */
+        a:visited {
+            color: black;
+        }
+
+        /* mouse hover effect */
+        a:hover {
+            color: green;
+        }
+
+        /* about us paragraph*/
+        .about p {
+            font-size: 25px;
+            line-height: 50px;
+            justify-content: center;
+        }
+
+        /* CSS for feedback form */
+        .feedbackform {
+            width: 50%;
+        }
+
+        .level{
+            padding: 10px;
+
+        }
+
+        input,
+        textarea {
+            /* width: 100%; */
+            padding: 10px;
+            margin-bottom: 9px;
+            border: 2px solid #ccc;
+            border-radius: 3%;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3c8b40;
+        }
+        .aboutfeed{
+            display: flex;
+        }
+        .abim img{
+            margin: 10%;
+            height: 390px;
+            border-radius: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!--Logo-->
+        <img src="../assets/logo/image.png" width="10%" class="logo">
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/product.html">Products</a>
+                </li>
+                <li>
+                    <a href="../pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="../pages/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="../pages/blog.html">Blog</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- This section describes about time treasure and team members -->
+        <section>
+            <div class="about">
+                <h1 align="center"><ins>Time Treasure's Story</ins></h1>
+                <p align="center">Time Treasure is a proficient aesthetic watch store which had originated in the prideful year of
+                    1990
+                    A.D. We have been active in the watch inustry for over 30 years and now are one of the most
+                    successful and
+                    influential watch sellers in the entire country. In the recent years we have also started buying
+                    watches
+                    from our customers either be it a private seller or a commercial seller. We happily welcome all
+                    seller and
+                    all kind of aesthetic women's watches be it mordern styled watches or antiyue or classic collector watches. We are
+                    excited to
+                    buy all kinds of watches provided to by the seller and ready to buy it in a reasonable price. </p>
+            </div>
+            <div class="pfp">
+                <div class="p1">
+                    <a href="../pages/Portfolio/shashreek.html">
+                        <img src="../assets/images/Portfolio/Shashreek.jpg">
+                        <h3 align="center">Shashreek Shrestha<br>Group Leader</h3><br><br>
+                    </a>
+                </div>
+                <div class="p1">
+                    <a href="../pages/Portfolio/supragya.html">
+                        <img src="../assets/images/Portfolio/Supragya.jpeg">
+                        <h3 align="center">Supragya Singh Sipai<br>Team Member</h3>
+                    </a>
+
+                </div>
+                <div class="p1">
+                    <a href="../pages/Portfolio/supriya.html">
+                        <img src="../assets/images/Portfolio/Supriya.jpeg">
+                        <h3 align="center">Supriya Pandey<br>Team Member</h3><br><br>
+                    </a>
+
+                </div>
+                <div class="p1">
+                    <a href="../pages/Portfolio/tamanna.html">
+
+                        <img src="../assets/images/Portfolio/Tamanna.jpg">
+                        <h3 align="center">Tamanna Aryal<br>Team Member</h3><br><br>
+                    </a>
+                </div>
+                <div class="p1">
+                    <a href="../pages/Portfolio/ashutosh.html">
+                        <img src="../assets/images/Portfolio/Ashutosh.jpg">
+                        <h3 align="center">Ashutosh Basnet<br>Team Member</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- This section has feedback form -->
+        <section>
+            <div class="aboutfeed">
+            <div class="feedbackform">
+                <form name="myForm" onsubmit="validateForm()">
+                    <h2 align="center"><ins>Feedback form</ins></h2>
+                    <p align="right">* indicates required field</p>
+                    <p> Name: * <input type="text" name="fname" style="width: 100%;"></p>
+                    <p> Gender: <input type="radio" checked name="gender">Male <input type="radio" name="gender">Female </p>
+                    <p>Email: *<input type="email" name="email" style="width: 100%;"> </p>
+                    <p>Satisfaction level: <select class="level">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Very Good">Very Good</option>
+                        <option value="Good">Good</option>
+                        <option value="Satisfactory">Satisfactory</option>
+                        <option value="Bad">Bad</option>
+                      </select>
+                    </p>
+                    <p> Feedback: *<textarea id="feedback" name="feedback" rows="4" cols="50"
+                            placeholder="Leave a message" style="width: 100%;"></textarea></p>
+                    <input type="submit" value="Submit">
+            </div>
+            <div class="abim">
+                <img src="../assets/images/home/store.jpg" alt="">
+            </div>
+        </div>
+        </section>
+        </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <div class="OurCompany">
+                <h2>Our Comapany</h2>
+                <h2>Time Treasure</h2>
+                <p>Build your own legacy</p>
+                <p>Find the watches that finds your time</p>
+
+            </div>
+            <div class="contact">
+                <h2>Contact US</h2>
+                <p>+977 9812212847</p>
+                <p>timetreasure@info.com</p>
+                <p>Kamaladi, Kathmandu</p>
+                <p>Nepal</p>
+
+            </div>
+            <div class="aboutus">
+                <h2>About US</h2>
+                <a href="../aboutus.html" style="color: white;">Click Here To Know More About Us</a>
+                <p>Explore our collection today</p>
+                <p>Find what style of watch reflects you</p>
+            </div>
+        </div>
+        <div class="footcont">
+            <div class="socialmedia">
+                <h3>Join us on social media:</h3>
+                <a href="#"><img src="../assets/logo/facebook.svg" style="width: 40px; height: 40;"></a>
+                <a href="#"><img src="../assets/logo/instagram.svg" style="width: 40px; height: 40;"></a>
+            </div>
+            <div class="mode">
+                <h3>Click here to change mode: </h3>
+                <button class="modebtn1" onclick="Dark()">Dark</button>
+                <button class="modebtn2" onclick="Light()">Light</button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function validateForm() {
+        let x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+            alert("Name must be filled out");
+            return false;
+        }
+        let y = document.forms["myForm"]["email"].value;
+        if (y == "") {
+            alert("Email must be filled out");
+            return false;
+        }
+        let z = document.forms["myForm"]["feedback"].value;
+        if (z == "") {
+            alert("Feedback must be filled out");
+            return false;
+        }
+        else{
+            alert("Thankyou for giving your valuable feedback!!")
+        }
+    }
+</script>
+
+</html>

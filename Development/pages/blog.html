@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Tamanna Aryal">
+    <meta name="description" content="Blog Page">
+    <meta name="keyword" content="Watche, Technology, Impact">
+    <title>Blog </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- script tag for linking external JS -->
+    <script src="../js/script.js"></script>
+    <style>
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Scrolling Text Section */
+        .scrolling-text {
+            background: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        /* Sidebar Section */
+        .sidebar {
+            width: 20%;
+            color: black;
+            padding: 20px;
+            float: left;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            color: black;
+            padding: 8px 10px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #CDADA9;
+        }
+
+        /* Blog Section */
+        .blog-section {
+            margin-left: 22%;
+            padding: 20px;
+        }
+
+        .blog-post {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            width: 20%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .blog-post .content {
+            flex: 1;
+        }
+
+        .blog-post h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+
+        .blog-post p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!--Logo-->
+        <img src="../assets/logo/image.png" width="10%" class="logo">
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/product.html">Products</a>
+                </li>
+                <li>
+                    <a href="../pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="../pages/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="../pages/blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Scrolling Text Section -->
+        <section>
+            <div class="scrolling-text">
+                <marquee>Each wristwatch is more than simply a timepiece; it is an illustration of the memorable times,
+                    significant events, and grace which characterize our trip. It records not only the passing minutes
+                    but
+                    also
+                    the events and experiences that gives importance.</marquee>
+            </div>
+        </section>
+        <!-- Main Content Section -->
+        <section>
+            <div class="main-container">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Navigation</h3>
+                        <hr style="opacity: 0.5;">
+                    </div>
+                    <ul>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#technology">About Technology</a></li>
+                        <li><a href="#impact">Impact Of Watches (positive and negative)</a></li>
+                        <li><a href="#vintage-era">Vintage Era Watches</a></li>
+                        <li><a href="#modern-era">Modern Era Watches</a></li>
+                        <li><a href="#smart-age">Smart Age Watches</a></li>
+                        <li><a href="#luxury">Luxury Watches</a></li>
+                        <li><a href="#trends">Trends In Watch Design</a></li>
+                        <li><a href="#future">Future Of Watches</a></li>
+                        <li><a href="#sales">Use Of Technology To Boost Watch Sales</a></li>
+                        <li><a href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+                <!-- Blog Section -->
+                <div class="blog-section">
+                    <div class="blog-post" id="introduction">
+                        <img src="../assets/images/blog/introduction.jpg" alt="Introduction to Watches" style="width: 30%;">
+                        <div class="content">
+                            <h2>Introduction</h2>
+                            <p>Historically, watches have served as more than just timepieces; they are symbols of
+                                artistry, fashion, and creativity. With its long history, the watch business has
+                                progressed from complex mechanical designs to modern smartwatches that combine
+                                convenience and technology. Luxury
+                                timepieces are still made by well-known manufacturers, and contemporary inventions
+                                satisfy the
+                                rising demand for both style and practicality. Watches are a classic item that showcases
+                                individual flair as well as the newest developments in design and technology, even as
+                                the industry evolves.</p> <br>
+                            <p>Elegant works of art that have been created over generations, watch are far more than
+                                just basic instruments for displaying time. The watch business regularly tests the
+                                limits of innovation and design, starting with the first mechanical timepieces and
+                                continuing with the emergence of quartz mechanisms and, most recently, the advanced
+                                smartwatches of today. In addition to being useful timepieces, watch are also
+                                fashionable garments that showcase individuality, prestige, and even modern technology.
+                                Watches have turned into a necessary component of daily life, whether they are high-end
+                                timepieces with exquisite craftsmanship or smartwatches loaded with the newest
+                                technologies. From traditional designs to cutting-edge, tech-driven advancements, they
+                                have everything for everyone, which contributes to their enduring appeal. The world of
+                                watches continues to evolve as new functions and materials are introduced.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="technology">
+                        <img src="../assets/images/blog/technology.png" alt="About Technology" style="width: 30%;">
+                        <div class="content">
+                            <h2>About Technology</h2>
+                            <p>Numerous industries have seen significant transformations due to technology, and the
+                                watch
+                                industry is no different. Watches have changed from being basic timepieces to
+                                multipurpose
+                                devices with the advent of smartwatches, artificial intelligence, and health monitors.
+                                Things
+                                like communication and fitness tracking are made possible by these advancements.</p> <br>
+                            <p>The watch industry has changed as a result of technology, which combines style,
+                                innovation, and accuracy. Timekeeping has changed significantly throughout the years,
+                                from traditional mechanical artistry to quartz accuracy and AI-powered wearables. With
+                                features like wireless networking, GPS, and health tracking, modern watches are more
+                                than simply accessories. Automation and artificial intelligence (AI) improve design and
+                                production, while novel substances like sapphire crystal, titanium, and ceramic increase
+                                endurance. The watch business maintains a flawless balance between heritage and
+                                contemporary innovation as technology develops, ensuring that timepieces are both
+                                practical and stylish.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="impact">
+                        <img src="../assets/images/blog/impact.png" alt="Impact of Watches">
+                        <div class="content">
+                            <h2>Impact of Watches</h2>
+                            <p>By fusing contemporary technology with design, watches have completely changed how we
+                                perceive
+                                time. Although they provide sophistication and convenience, they can have both
+                                beneficial
+                                and
+                                detrimental effects.</p>
+
+                            <h3>Positive Impact</h3>
+                            <p>- Making the time easily accessible, watches improve productivity.</p>
+                            <p>- Enhance lifestyle by providing fast notifications and health monitoring.</p>
+                            <p>- Watches are regarded as classic investments that gain value over time.</p>
+                            <p>- Daily routines gain structure and a sense of punctuality from watches.</p>
+
+                            <h3>Negative Impact</h3>
+                            <p>-Regular alerts from smartwatches might provide continual distractions.</p>
+                            <p>-Luxurious timepieces have the potential to push consumption over usefulness.</p>
+                            <p>-Overuse of wearable technology may result in less interpersonal encounters as users
+                                become
+                                overly preoccupied with the gadget.</p>
+                            <p>-As smartphones replace watches in many time-related tasks, watches may become less
+                                useful.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="vintage-era">
+                        <img src="../assets/images/blog/vintage.webp" alt="Vintage Era Watches">
+                        <div class="content">
+                            <h2>Vintage Era Watches</h2>
+                            <p> Usually made between the early 1900s and the 1970s, antique timepieces are prized for
+                                their
+                                classic quality and unique designs. In keeping with the fashions of their day, these
+                                watches
+                                frequently have distinctive structures, sophisticated displays, and mechanical
+                                movements.
+                                Vintage watches are prized for their unique qualities and the fine artistry that went
+                                into
+                                making them, in contrast to contemporary timepieces. They are still very popular among
+                                collectors and enthusiasts today because of their historical significance as well as the
+                                close
+                                connection they provide to a bygone period of watchmaking.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="modern-era">
+                        <img src="../assets/images/blog/modern.jpg" alt="Modern Era Watches">
+                        <div class="content">
+                            <h2>Modern Era Watches</h2>
+                            <p>Watches from the modern period combine state-of-the-art technology with traditional
+                                workmanship.
+                                As quartz mechanisms gained popularity in the 1980s and 1990s, timepieces improved in
+                                accuracy,
+                                affordability, and design variety. Digital timepieces with sophisticated features like
+                                multi-functions and lighted screens became popular at this time. For durability and
+                                fashion,
+                                brands adopted cutting-edge materials like ceramics and titanium. Automatic watches were
+                                also
+                                improved during this time, combining accuracy and mechanical artistry. In the end, the
+                                contemporary era paved the way for the introduction of smartwatches, which provide both
+                                classic
+                                style and innovative functionality.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="smart-age">
+                        <img src="../assets/images/blog/smart.jpg" alt="Smart Age Watches">
+                        <div class="content">
+                            <h2>Smart Age Watches</h2>
+                            <p>Personal timekeeping enters a new era with smart age watches. In addition to telling the
+                                time,
+                                these sophisticated clocks have made conventional watches into multipurpose tools. With
+                                features
+                                like tracking your activity, health monitoring, real-time updates, and GPS navigation,
+                                smartwatches allow technology to be easily incorporated into everyday life. These wrist
+                                devices
+                                offer unmatched ease as we continue into the digital era, enabling users to control
+                                their
+                                time,
+                                health, and communications from the palm of their hands. They also showcase innovation.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="blog-post" id="luxury">
+                        <img src="../assets/images/blog/luxury.webp" alt="Luxury Watches">
+                        <div class="content">
+                            <h2>Luxury Watches</h2>
+                            <p>Luxury wristwatches are a stylish fusion of revolutionary technology and traditional
+                                style.
+                                Due
+                                to their frequent production limitations, these watches are extremely uncommon and
+                                desirable.
+                                Watch companies push the limits of service with each creation, producing one-of-a-kind
+                                complexities, beautiful trends, and distinctive looks. The finest timepieces are an
+                                admiration
+                                of both form and function, from the careful polishing of metals to the choice of rare
+                                materials
+                                like mother-of-pearl and titanium. They are not only timekeepers for the smart
+                                collector,
+                                but
+                                also individual declarations of fashion, the ages, and unmatched skill.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="trends">
+                        <img src="../assets/images/blog/trends.jpeg" alt="Trends In Watch Design">
+                        <div class="content">
+                            <h2>Trends In Watch Design</h2>
+                            <p>Minimalism is being embraced by watch designers, who are increasingly choosing simple
+                                shapes
+                                and
+                                subtle elegance. Classic styles are being recreated with contemporary elements,
+                                continuing
+                                the
+                                vintage revival trend. Due to their utility and appeal, hybrid watches—which combine
+                                smart
+                                technology with classic analog—are becoming more and more popular. With materials like
+                                recycled
+                                elements and sustainable leather becoming more widely used, there is also a growing
+                                market
+                                for
+                                eco-friendly timepieces. These patterns demonstrate how contemporary watches are moving
+                                toward
+                                sustainability, innovation, and individuality. </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="future">
+                        <img src="../assets/images/blog/future.j.jpg" alt="Future Of Watches">
+                        <div class="content">
+                            <h2>Future Of Watches</h2>
+                            <p>Legacy and modernity will merge in timepieces of the future. With their AI-powered
+                                capabilities,
+                                effortless connectivity, and improved health tracking, smartwatches will become
+                                necessary
+                                everyday companions. While maintaining production, luxury timepieces will develop using
+                                eco-friendly straps and recycled metals, among other sustainable aspects.
+                                Personalization
+                                will
+                                become the primary priority, enabling consumers to alter functionalities and styles to
+                                suit
+                                their requirements. The way users feel may be improved by the broad use of biometric and
+                                augmented reality capabilities. Essentially, timepieces of future generations will
+                                strike a
+                                balance between sustainability, creativity and trend, appealing to both conventional
+                                watch
+                                admirers and those who enjoy technology.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="sales">
+                        <img src="../assets/images/blog/use.jpeg" alt="Use Of Technology To Boost Watch Sales">
+                        <div class="content">
+                            <h2>Use Of Technology To Boost Watch Sales</h2>
+                            <p>The world of watches has seen a revolution due to technological advances, which has
+                                improved
+                                marketing and changed how customers interact with brands. Geographical obstacles are no
+                                longer
+                                an obstacle because of today's e-commerce sites, and AI-powered tools personalize
+                                purchasing
+                                by
+                                suggesting items based on user interests. With features like augmented previews, which
+                                give
+                                users a realistic idea of how a watch might appear on their wrist, augmented reality has
+                                further
+                                improved online buying. Social media is essential to marketing because it allows
+                                companies
+                                to
+                                interact with their audience directly and set trends. In the tough watch industry, these
+                                developments not only increase sales but also open the door for new ideas and improved
+                                client
+                                connections.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog-post" id="conclusion">
+                        <img src="../assets/images/blog/conclusion.jpg" alt="Conclusion">
+                        <div class="content">
+                            <h2>Conclusion</h2>
+                            <p>Overall, from their modest origins as basic timepieces, watches have advanced immensely.
+                                Nowadays
+                                they stand for a fusion of artistry, technological advancement, and individual
+                                expression,
+                                and
+                                are far more than merely accessories. The watches business has changed over time to
+                                satisfy
+                                the
+                                demands of contemporary consumers, from the mechanical wonders of the past to the
+                                innovative
+                                smartwatch of today’s world. Watches have remained relevant in a world that is
+                                constantly
+                                evolving, whether they are exhibiting luxury, functionality, or the newest technological
+                                capabilities. For decades yet to come, the classic attraction of timepieces will
+                                continue to
+                                attract and fascinate as the industry adjusts to new developments and ideas.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer">
+                <div class="OurCompany">
+                    <h2>Our Comapany</h2>
+                    <h2>Time Treasure</h2>
+                    <p>Build your own legacy</p>
+                    <p>Find the watches that finds your time</p>
+
+                </div>
+                <div class="contact">
+                    <h2>Contact US</h2>
+                    <p>+977 9812212847</p>
+                    <p>timetreasure@info.com</p>
+                    <p>Kamaladi, Kathmandu</p>
+                    <p>Nepal</p>
+
+                </div>
+                <div class="aboutus">
+                    <h2>About US</h2>
+                    <a href="../pages/aboutus.html">Click Here To Know More About Us</a>
+                    <p>Explore our collection today</p>
+                    <p>Find what style of watch reflects you</p>
+                </div>
+            </div>
+            <div class="footcont">
+                <div class="socialmedia">
+                    <h3>Join us on social media:</h3>
+                    <a href="#"><img src="../assets/logo/facebook.svg" style="width: 40px; height: 40;"></a>
+                    <a href="#"><img src="../assets/logo/instagram.svg" style="width: 40px; height: 40;"></a>
+                </div>
+                <div class="mode">
+                    <h3>Click here to change mode: </h3>
+                    <button class="modebtn1" onclick="Dark()">Dark</button>
+                    <button class="modebtn2" onclick="Light()">Light</button>
+                </div>
+            </div>
+    </main>
+    </footer>
+
+
+</body>
+
+</html>

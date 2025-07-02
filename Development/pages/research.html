@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag for Search Engine Optimization and brief description of web page's content -->
+    <meta name="author" content="Supragya Singh Sipai">
+    <meta name="description" content="Research Page">
+    <meta name="keyword" content="Reference">
+    <title>Research</title>
+    <!-- link tag for linking external CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- script tag for linking external JS -->
+    <script src="../js/script.js"></script>
+    <!-- style tag for internal css for research page -->
+    <style>
+        .research-top {
+            height: 650px;
+        }
+
+        .top {
+            /* to display elements in row */
+            display: flex;
+            height: 540px;
+        }
+
+        .top1 {
+            /* to occupy 50% of parent div */
+            flex: 50%;
+            height: 550px;
+            /* In box shadow propert: 1st value: horizontal offset, 2nd value: vertical offset, 3rd value: blur, 4th value: shadow size, 5th value: color  */
+            box-shadow: 5px 5px 5px 5px gray;
+            margin-right: 9%;
+            margin-left: 16%;
+            margin-top: 5%;
+        }
+
+        .top1 img {
+            /* to occupy 50% of parent div */
+            height: 550px;
+            /* positioning element relative to its closest positioned ancestor and it doesn't consume any layout space */
+            position: absolute;
+            left: 250px;
+            top: 140px;
+        }
+
+        .top2 {
+            /* to occupy 50% of parent div */
+            flex: 50%;
+            margin-top: 10%;
+            margin-right: 5%;
+            /* to give the amount of space between lines of text */
+            line-height: 45px;
+        }
+
+        .ad {
+            height: 190px;
+            /* 1st: top 2nd: right-left 3rd: bottom */
+            margin: 0px 110px 0px;
+            /* shaping corner edge */
+            border-radius: 2%;
+            /* 1st: top 2nd: right 3rd: bottom 4th: left */
+            padding: 1% 15% 1% 15%;
+        }
+
+        .ad p {
+            font-size: 18px;
+        }
+
+        .benchm1 {
+            /* to display elements in row */
+            display: flex;
+            height: 250px;
+            background: #D7B6B2;
+            /* 1st: top-bottom 2nd: right-left */
+            margin: 20px 20%;
+        }
+
+        .benchm1-pic {
+            /* to occupy 50% of parent div */
+            flex: 50%;
+            padding-left: 270px;
+        }
+
+        .benchm1-pic img {
+            width: 70%;
+            /* shaping corner edge */
+            border-radius: 50%;
+        }
+
+        .benchm1-text {
+            /* to occupy 50% of parent div */
+            flex: 50%;
+            margin-top: 5%;
+            margin-right: 10%;
+            /* to give the amount of space between lines of text */
+            line-height: 45px;
+        }
+
+        .reference {
+            display: flex;
+            /* 1st: top-bottom 2nd: right-left */
+            margin: 1% 5%
+        }
+
+        .reference img {
+            width: 90%;
+            height: 250px;
+            border-radius: 2%;
+        }
+
+        /* effect while hovering over the imze */
+        .reference img:hover {
+            /* zoom out */
+            transform: scale(1.05);
+        }
+
+        .text {
+            width: 70%;
+            margin: 1% 15% 3% 15%;
+            /* In box shadow propert: 1st value: horizontal offset, 2nd value: vertical offset, 3rd value: blur, 4th value: shadow size, 5th value: color  */
+            box-shadow: -5px 5px 5px 7px rgb(212, 226, 234);
+            padding: 1%;
+        }
+
+        .text p {
+            font-size: 20px;
+        }
+
+        .end {
+            height: 250px;
+            background: #D7B6B2;
+            display: flex;
+            /* 1st: top 2nd: right 3rd: bottom 4th: left */
+            padding: 1% 30% 1% 30%;
+        }
+
+        .endimg,
+        .endtext {
+            flex: 50%;
+        }
+
+        .endtext {
+            padding-top: 25px;
+        }
+
+        .endimg img {
+            width: 70%;
+            /* shaping corner edge */
+            border-radius: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!--Logo-->
+        <img src="../assets/logo/image.png" width="10%" class="logo">
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/product.html">Products</a>
+                </li>
+                <li>
+                    <a href="../pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="../pages/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="../pages/blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- This is top section of rresearch page -->
+        <section class="research-top">
+            <div class="top" style="background: #D7B6B2;">
+                <div class="top1">
+                    <img src="../assets/images/watches/5.jpg">
+                </div>
+                <div class="top2">
+                    <h1>The Power of Research: <br>Exploring the unknown to uncover the extraordinary</h1>
+                    <p>Research, the compass that guides towards better decisions, more efficient designs and a better
+                        user experience. </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="ad" style="background: #8C7673; ">
+                <h1 align="center">How was the project sucessfully build?</h1>
+                <p><b>Obiviously,</b> Research. Research is the bridge between potential and excellence. In today’s
+                    rapidly evolving digital world, research isn’t just a tool, it’s the
+                    foundation upon which successful websites are built. This research page serves as a testament to how
+                    comparison and decision-making helps in shaping the evolution and formation of our website. By
+                    benchmarking against others, it's not just comparing features, we’re uncovering new opportunities
+                    for growth and technical excellence.</p>
+            </div>
+        </section>
+        <!-- This section gives Glimpse of what to expect in upcoming section -->
+        <section>
+            <div class="benchm1">
+                <div class="benchm1-pic">
+                    <img src="../assets/images/watches/9.jpg">
+                </div>
+                <div class="benchm1-text">
+                    <h1>Reference Used in Entire Website: Footer</h1>
+                </div>
+            </div>
+        </section>
+        <!-- This section describes reference process of footer -->
+        <section>
+            <div class="reference"> <!-- to give common style to elements using class 'reference' -->
+                <div class="ref">
+                    <!-- linking anoter webpage from image -->
+                    <a href="https://edu.gcfglobal.org/en/" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/footerRef.png">
+                    </a>
+                </div>
+                <div class="our">
+                    <!-- linking anoter webpage from image -->
+                    <a href="../index.html" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/footer.png">
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <!-- Description of referencing -->
+                <p>
+                    <b>Footer:</b>
+                    The footer of the website is referenced from a learning platform called GFC Global. The
+                    minimalist design of footer made it more appealing to use it in the project. The 3 columns in footer
+                    is kept in 3 divs. These 3 divs are enclosed in one div called footer. 'display: flex' property of
+                    CSS is
+                    used in footer div to make the alignment in row. Like footer div, footcont div is created. In which
+                    socialmedia div containing image of facebook and instagram which can direct link to respective page
+                    and mode div containing
+                    button to change background color of webpage is made.
+                </p>
+            </div>
+        </section>
+        <!-- This section gives Glimpse of what to expect in upcoming section -->
+        <section>
+            <div class="benchm1">
+                <div class="benchm1-pic">
+                    <img src="../assets/images/watches/7.jpg">
+                </div>
+                <div class="benchm1-text">
+                    <h1>Reference Used in Product Description Page</h1>
+                </div>
+            </div>
+        </section>
+        <!-- This section describes reference process of Product Detail -->
+        <section>
+            <div class="reference"> <!-- to give common style to elements using class 'reference' -->
+                <div class="ref">
+                    <!-- linking anoter webpage from image -->
+                    <a href="https://www.chrono24.com/omega/omega-speedmaster-reduced-schumacher-yellow-dial-chronograph-automatic-39mm-35101200--id38344079.htm?searchHash=ae970bb8_Rt7Deo&pos=8"
+                        target="_blank"> <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/detailRef.png">
+                    </a>
+                </div>
+                <div class="our">
+                    <!-- linking anoter webpage from image -->
+                    <a href="../pages/Product Detail/Yolako.html" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/detail.png">
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <!-- Description of referencing -->
+                <p>
+                    <b>Product Detail:</b>
+                    Product description is referenced from chrono24 watch store. The basic info table's layout of
+                    chrono24 website is taken referenced and the more info table in the project is created.
+                    'productdetail'
+                    div consists 'info' div and 'description' div for proper layout of more info and description using
+                    CSS property 'display: flex'. Table 'tableinfo' uses it's tr, td attributes for displaying watch's
+                    short informations. The whole explore more is content of 'detail' section.
+                </p>
+            </div>
+        </section>
+        <!-- This section describes reference process of Recommendation -->
+        <section>
+            <div class="reference"> <!-- to give common style to elements using class 'reference' -->
+                <div class="ref">
+                    <!-- linking anoter webpage from image -->
+                    <a href="https://www.chrono24.com/seiko/prospex-divers-solar--id37943106.htm?searchHash=b121f5ae_NAEojk&pos=9"
+                        target="_blank"> <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/recommendRef.png">
+                    </a>
+                </div>
+                <div class="our">
+                    <!-- linking anoter webpage from image -->
+                    <a href="../pages/Product Detail/Gaiety.html" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/recommend.png">
+                    </a>
+                </div>
+            </div>
+
+            <div class="text">
+                <!-- Description of referencing -->
+                <p>
+                    <b>Product Recommendation:</b>
+                    Watches you may be interested section in the project in is referenced from chrono24 website's you
+                    may
+                    be interensted in these watches section. The layout of 4 images in a row is kept with reference to
+                    it. Each image and text is enclosed in a anchor tag which is enclosed in element div. 'element' divs
+                    is enclosed in 'watches' div which uses CSS property 'display: flex' for it's arrangement on row.
+                    The whole recommendation block is a part of 'recommendation' section.
+                </p>
+            </div>
+        </section>
+        <!-- This section describes reference process of Review -->
+        <section>
+            <div class="reference"> <!-- to give common style to elements using class 'reference' -->
+                <div class="ref">
+                    <!-- linking anoter webpage from image -->
+                    <a href="https://www.titan.co.in/product/sonata-elegent-essentials-quartz-analog-watch-for-women-with-rose-gold-stainless-steel-strap-87045wm01w.html?lang=en_IN&plp=true"
+                        target="_blank"> <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/revRef.png">
+                    </a>
+                </div>
+                <div class="our">
+                    <!-- linking anoter webpage from image -->
+                    <a href="../pages/Product Detail/Jacques.html" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/rev.png">
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <!-- Description of referencing -->
+                <p>
+                    <b>Product Review:</b>
+                    Product Review is referenced from Titan, a watch selling store's webpage. Three rows i.e. Summary,
+                    Customer Reviews and Write a review are enclosed in a div. The div uses CSS property 'display: flex'
+                    for it's arrangement on row. Customer reviews of 5 different stars are displayed with the use of 5
+                    different table. Different table is used for making difference in width of td. Write a reciew used
+                    button.
+                </p>
+            </div>
+        </section>
+        <!-- This section gives Glimpse of what to expect in upcoming section -->
+        <section>
+            <div class="benchm1">
+                <div class="benchm1-pic">
+                    <img src="../assets/images/watches/10.jpg">
+                </div>
+                <div class="benchm1-text">
+                    <h1>Reference Used in <br> Blog Page</h1>
+                </div>
+            </div>
+        </section>
+        <!-- This section describes reference process of Navigation -->
+        <section>
+            <div class="reference"> <!-- to give common style to elements using class 'reference' -->
+                <div class="ref">
+                    <!-- linking anoter webpage from image -->
+                    <a href="https://en.wikipedia.org/wiki/Web_browser" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/navRef.png">
+                    </a>
+                </div>
+                <div class="our">
+                    <!-- linking anoter webpage from image -->
+                    <a href="../pages/blog.html" target="_blank">
+                        <!-- target:"_blank" is attribute of anchor tag to open link in new tab -->
+                        <img src="../assets/images/Reference/nav.png">
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <!-- Description of referencing -->
+                <p>
+                    <b>Navigation Bar :</b>
+                    In the project, navigating bar is made with the reference of content bar in wikipedia. Each content
+                    of blog has it's unique id for navigating bar and same class 'blog-post' which is used for common
+                    CSS. Unordered list is used for listing the topics in blog's sidebar which has anchor tag in it. The
+                    anchor tag's attribute href uses '#idName' for linking to the particular ID. The list of title's of
+                    navigation header is enclosed in 'sidebar' div.
+                </p>
+            </div>
+        </section>
+        <!-- This section gives concusion of research page -->
+        <section>
+            <div class="end">
+                <div class="endimg">
+                    <img src="../assets/images/watches/7.jpg">
+                </div>
+                <div class="endtext">
+                    <h1>Research: Benchmarking for Better Performance</h1>
+                    <p>This research page dives into a comparative analysis of our website versus others (referenced
+                        website).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+        <div class="footer">
+            <div class="OurCompany">
+                <h2>Our Comapany</h2>
+                <h2>Time Treasure</h2>
+                <p>Build your own legacy</p>
+                <p>Find the watches that finds your time</p>
+            </div>
+            <div class="contact">
+                <h2>Contact US</h2>
+                <p>+977 9812212847</p>
+                <p>timetreasure@info.com</p>
+                <p>Kamaladi, Kathmandu</p>
+                <p>Nepal</p>
+            </div>
+            <div class="aboutus">
+                <h2>About US</h2>
+                <a href="../pages/aboutus.html">Click Here To Know More About Us</a>
+                <p>Explore our collection today</p>
+                <p>Find what style of watch reflects you</p>
+            </div>
+        </div>
+        <div class="footcont">
+            <div class="socialmedia">
+                <h3>Join us on social media:</h3>
+                <a href="#"><img src="../assets/logo/facebook.svg" style="width: 40px; height: 40;"></a>
+                <a href="#"><img src="../assets/logo/instagram.svg" style="width: 40px; height: 40;"></a>
+            </div>
+            <div class="mode">
+                <h3>Click here to change mode: </h3>
+                <button class="modebtn1" onclick="Dark()">Dark</button>
+                <button class="modebtn2" onclick="Light()">Light</button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

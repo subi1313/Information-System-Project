@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Time Treasury</title>
+    <meta name="description" content="Home Page" />
+    <meta name="keywords" content="Home, Index" />
+    <meta name="author" content="Shashreek Shrestha" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- script tag for linking external JS -->
+    <script src="js/script.js"></script>
+</head>
+<style>
+    /*button for top selling watches */
+    .btn {
+        position: absolute;
+        top: 610px;
+        right: 130px;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+    }
+
+    /*for top selling watches*/
+    .container {
+        margin: 2% 5% 2% 5%;
+        padding-top: 2%;
+        border-radius: 3%;
+    }
+
+    .container img {
+        height: 300px;
+        width: 370px;
+        border-radius: 8%;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    .prod {
+        margin-left: 100px;
+        display: flex;
+    }
+
+    .p1 {
+        margin-left: 5%;
+        /* border: 50px solid #c8e5e8; */
+    }
+
+    /*button for top selling products*/
+    .btn1,
+    .btn2,
+    .btn3 {
+        position: absolute;
+        background-color: black;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+        top: 1390px;
+    }
+
+    .btn1 {
+        left: 510px;
+    }
+
+    .btn2 {
+        left: 960px;
+    }
+
+    .btn3 {
+        left: 1400px;
+    }
+
+    /* for top sellers */
+    .top {
+        padding-top: 10px;
+    }
+
+    .watch {
+        display: flex;
+        border-radius: 30px;
+    }
+
+    .brand {
+        position: relative;
+        width: 600px;
+        overflow: hidden;
+        width: 34%;
+        font-size: 25px;
+    }
+
+    .brand img {
+        height: 400px;
+        width: 550px;
+        position: relative;
+        border-radius: 30px;
+        margin: 10px;
+        margin-right: 50px;
+    }
+
+    .cont {
+        color: white;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 0.5s;
+    }
+
+    /*hover effect on top sellers of the store*/
+    .brand:hover .cont {
+        top: 0;
+        transform: translateY(25px);
+
+    }
+
+    .know {
+        margin: 1% 15% 1% 15%;
+        /* border: 2px solid; */
+        border-radius: 2%;
+    }
+
+    .knowus,
+    .development {
+        display: flex;
+        line-height: 50px;
+    }
+
+    .knowus img {
+        margin: 10px;
+        border-radius: 3%;
+    }
+
+    .knowus p,
+    .devinfo p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .trend {
+        margin: 1% 10% 1% 10%;
+        border-radius: 2%;
+        padding: 1%;
+    }
+
+    .devimg img {
+        margin: 10px;
+        border-radius: 3%;
+        width: 500px;
+    }
+
+    .direct, .direct1 {
+        background-color: black;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        right: 20%;
+    }
+    .direct1{
+        right: 45%;
+    }
+
+    .imageslider {
+        width: 100%;
+        margin: auto;
+        box-shadow: 2px -2px 5px 2px gray;
+        overflow: hidden;
+    }
+
+    .imageslider img {
+        width: 100%;
+        height: 900px;
+    }
+    .store img{
+        width: 500px;
+        height: 250px;
+    }
+</style>
+<body>
+    <header>
+        <!--Logo-->
+        <img src="assets/logo/image.png" width="10%" class="logo">
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pages/product.html">Products</a>
+                </li>
+                <li>
+                    <a href="pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="pages/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="pages/blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- This is the hero section with image slider -->
+        <section>
+            <div class="imageslider">
+                <div id="slide">
+                    <img src="assets/images/home/imageslider/15.webp">
+                </div>
+        </section>
+        <!-- This section provides glimpse of product page having button to direct to product description page -->
+        <section>
+            <div class="container">
+                <div class="high">
+                    <h1 align="center" class="h1"><ins>Top Selling Watches</ins></h1>
+                </div>
+                <div class="prod">
+                    <div class="p1">
+                        <img src="assets/images/watches/titanlagan.webp">
+                        <p align="center">Titan Women's Lagan Watch<br>Price: $330 USD<br> Crystal: None.</p>
+                        <button class="btn1"
+                            onclick="document.location.href='pages/Product Detail/TitanWomenLagan.html'">Shop
+                            Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="assets/images/watches/1.jpg">
+                        <p align="center">Yolako Quartz<br>Price: $4399 USD<br> Crystal: PlexiGlass.</p>
+                        <button class="btn2"
+                            onclick="document.location.href='pages/Product Detail/Yolako.html'">Shop
+                            Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="assets/images/watches/2.jpg">
+                        <p align="center">Gaiety Date<br>Price: $10,100 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn3"
+                            onclick="document.location.href='pages/Product Detail/Gaiety.html'">Shop
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Provides glimpse of About Us page having button to direct to about us page -->
+        <section>
+            <div class="know">
+                <h1 align="center"> <u>Get to know us</u></h1>
+                <div class="knowus">
+                    <div class="store">
+                        <img src="../Development/assets/images/home/store.jpg" id="1" onclick="toggle()">
+                        <img src="../Development/assets/images/home/store1.jpg" id="2" onclick="toggle()" hidden>
+                    </div>
+                    <div class="knowinfo">
+                        <p>
+                            Time Treasure is a proficient watch store which had originated in the prideful year of
+                            1990
+                            A.D.
+                            We have been active in the watch inustry for over 30 years and now are one of the most
+                            successful and influential watch sellers in the entire country.
+                        </p>
+                        <button class="direct" onclick="document.location.href='pages/aboutus.html'">Click
+                            Here</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Provides glimpse of Blog page having button to direct to blog page -->
+        <section>
+            <div class="trend">
+                <h1 align="center"> <u>Want to know trend of watches?</u></h1>
+                <div class="development">
+                    
+                    <div class="devinfo">
+                        <p>
+                            Historically, watches have served as more than just timepieces; they are symbols of
+                            artistry, fashion, and creativity. Minimalism is being embraced by watch designers.
+                        </p>
+                        <button class="direct1" onclick="document.location.href='pages/blog.html'">Click
+                            Here</button>
+                    </div>
+                    <div class="devimg">
+                        <img src="../Development/assets/images/watches/3.jpg" height="350px" id="3" onclick="toggle1()">
+                        <img src="../Development/assets/images/watches/10.jpg" height="350px" id="4" onclick="toggle1()" hidden>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Provides glimpse of Research page having button to direct to research page -->
+
+        <section>
+            <div class="know">
+                <h1 align="center"> <u>How was the project build?</u></h1>
+                <div class="development">
+                    <div class="devimg">
+                        <img src="../Development/assets/images/home/4.jpg" height="300px" id="5" onclick="toggle2()">
+                        <img src="../Development/assets/images/home/5.jpg" height="300px" id="6" onclick="toggle2()" hidden>
+                    </div>
+                    <div class="devinfo">
+                        <p>
+                            The project required implementation of HTML, CSS and Javascript. The project is made
+                            with
+                            referenced to different websites. Get to know more about these websites.
+                        </p>
+                        <button class="direct" onclick="document.location.href='pages/research.html'">Click
+                            Here</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- This section gives top seller's information -->
+        <section style="margin: 1%;">
+            <div class="top">
+                <h1 align="center"><ins>Top Collections</ins></h1>
+                <div class="watch">
+                    <div class="brand">
+                        <img src="./assets/images/watches/5.jpg"><br>
+                        <div class="cont">
+                            <p align="center"><b><br><br><br><br><br><br><br>It does't just tell time.<br> It tells
+                                    history</b></p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <img src="./assets/images/watches/6.jpg">
+                        <div class="cont">
+                            <p align="center"><b><br><br><br><br><br><br><br>A legacy<br>Built on Time</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <img src="./assets/images/watches/7.jpg">
+                        <div class="cont">
+                            <p align="center"><b><br><br><br><br><br><br><br>Look at your watch.<br>Don't look at what time it is.
+                                    </b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="OurCompany">
+                <h2>Our Comapany</h2>
+                <h2>Time Treasure</h2>
+                <p>Build your own legacy</p>
+                <p>Find the watches that finds your time</p>
+
+            </div>
+            <div class="contact">
+                <h2>Contact US</h2>
+                <p>+977 9812212847</p>
+                <p>timetreasure@info.com</p>
+                <p>Kamaladi, Kathmandu</p>
+                <p>Nepal</p>
+
+            </div>
+            <div class="aboutus">
+                <h2>About US</h2>
+                <a href="./pages/aboutus.html">Click Here To Know More About Us</a>
+                <p>Explore our collection today</p>
+                <p>Find what style of watch reflects you</p>
+            </div>
+        </div>
+        <div class="footcont">
+            <div class="socialmedia">
+                <h3>Join us on social media:</h3>
+                <img src="./assets/logo/facebook.svg" style="width: 40px; height: 40;">
+                <img src="./assets/logo/instagram.svg" style="width: 40px; height: 40;">
+            </div>
+            <div class="mode">
+                <h3>Click here to change mode: </h3>
+                <button class="modebtn1" onclick="Dark()">Dark</button>
+                <button class="modebtn2" onclick="Light()">Light</button>
+            </div>
+        </div>
+    </footer>
+    <!-- Internal script tag -->
+    <script>
+        var image = document.getElementById('slide');
+        var imageLocation = [ 'assets/images/home/imageslider/13.jpg', 'assets/images/home/imageslider/11.jpg', 'assets/images/home/imageslider/14.jpg', 'assets/images/home/imageslider/12.jpg', 'assets/images/home/imageslider/15.webp']
+        var index = 0;
+        setInterval(slider, 2000)
+        function slider() {
+            if (index < 5) {
+                index = index + 1;
+            }
+            else {
+                index = 1;
+            }
+            image.innerHTML = "<img src=" + imageLocation[index - 1] + ">";
+        }
+        
+
+    </script>
+
+</body>
+
+
+</html>

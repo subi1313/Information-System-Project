@@ -1,0 +1,355 @@
+/* External CSS for the website */
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    color: #413A39;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/* CSS for header */
+.logo {
+    display: block;
+    margin: auto;
+    margin-bottom: -145px;
+    margin-top: -145px;
+    width: 20%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.3%;
+    margin: 0.4%;
+    display: flex;
+    justify-content: center;
+    background-color: #CDADA9;
+}
+nav ul li{
+    color: black;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* CSS for footer */
+footer {
+    background: #CDADA9;
+    color: black;
+    height: 500px;
+}
+
+.footer {
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.OurCompany,
+.contact,
+.aboutus {
+    flex: 30%;
+}
+
+.footer a {
+    color: black;
+}
+
+.mode {
+    margin-left: 10%;
+}
+
+.socialmedia img {
+    margin: 10px;
+}
+.footcont{
+    display: flex;
+    margin-left: 10%;
+}
+.modebtn1{
+    background-color: #A98F8C;
+    border: none;
+    color: white;
+    /* In padding, 1st value is applied to top and bottom & 2nd value is applied to right and left */
+    padding: 15px 32px;
+    /* Shaping corner edges */
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.modebtn2{
+    background-color: white;
+    border: none;
+    color: black;
+    /* In padding, 1st value is applied to top and bottom & 2nd value is applied to right and left */
+    padding: 15px 32px;
+    /* Shaping corner edges */
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+/* CSS for product description pages */
+.overview {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.productoverview {
+    /* to arrange div in row */
+    display: flex;
+}
+
+.productimg {
+    width: 40%;
+}
+
+.productoverview img {
+    width: 95%;
+    height: 95%;
+    /* to give shape to the image */
+    border-radius: 10px;
+}
+
+.productoverview hr,
+.description hr {
+    /* to decrease opacity of horizontal line */
+    opacity: .2;
+}
+
+.item {
+    display: flex;
+    /* to arrange div in column */
+    flex-direction: column;
+}
+
+.itemname {
+    /* to occupy 20% of parent div */
+    flex: 20%;
+}
+
+.itemdetail {
+    /* to occupy 50% of parent div */
+    flex: 50%;
+}
+
+.itemdetail p {
+    /* to set the distance between lines of text */
+    line-height: 2.2;
+}
+
+.itempurchase {
+    /* to occupy 30% of parent div */
+    flex: 30%;
+}
+
+.buy {
+    background-color: #023E8A;
+    border: none;
+    color: rgb(243, 243, 243);
+    /* In padding, 1st value is applied to top and bottom & 2nd value is applied to right and left */
+    padding: 15px 32px;
+    /* Shaping corner edges */
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.right-align {
+    /* to move the elements relative from it's normal position */
+    position: relative;
+    /* positioning elements 300px left from it's normal position */
+    left: 300px;
+}
+
+.detail {
+    /* shaping corner edge */
+    border-radius: 10px;
+    border-style: ridge;
+    padding: 5px;
+}
+
+/* common styling of detail and recommendation section */
+.detail, .recommendation, .rating {
+    /* Margin for gap between the element and its neighbouring elements */
+    margin-left: 8%;
+    margin-top: 50px;
+    margin-right: 8%;
+    margin-bottom: 80px;
+}
+
+.productdetail {
+    /* to arrange div in row */
+    display: flex;
+}
+
+.info {
+    /* to occupy 50% of parent div */
+    flex: 50%;
+}
+
+.description {
+    /* to occupy 50% of parent div */
+    flex: 50%;
+}
+
+/* common styling of info and description div */
+.info,
+.description {
+    /* padding for space between the content and the border of an element */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.tableinfo {
+    width: 90%;
+    /* to collapse table borders into a single border */
+    border-collapse: collapse;
+}
+
+.tableinfo tr {
+    /* 1st value:border-width , 2nd value:border-style , 3rd value:border-color */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* decrease opacity of the border */
+    opacity: .6;
+}
+
+.tableinfo tr td {
+    /* interna spacing in td */
+    padding: 10px;
+}
+
+.watches {
+    /* to display recommended watches in row */
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.element {
+    /* give equal width to each watch */
+    width: 25%;
+    text-align: center;
+}
+
+.element a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.element a img {
+    width: 90%;
+    height: 90%;
+    /* shaping corner edge */
+    border-radius: 10px;
+}
+
+.review {
+    /* show content in row layout */
+    display: flex;
+    /* In margin, 1st: top 2nd: right 3rd: bottom 4th: left */
+    margin: 1% 20% 1% 20%;
+    width: 60%;
+}
+
+.summary {
+    /* to occupy 20% of parent div */
+    flex: 20%;
+}
+
+.display {
+    /* to occupy 50% of parent div */
+    flex: 50%;
+}
+
+.write {
+    /* to occupy 30% of parent div */
+    flex: 30%;
+}
+
+/* implement CSS on display class as well as write class */
+.display,
+.write {
+    padding-left: 1%;
+    padding-right: 1%;
+    /* 1st: width 2nd: style 3rd: color */
+    border-left: thin solid #000000;
+}
+.display table{
+    width:100%; 
+    /* to set the space between the cells */
+    border-collapse: separate; 
+    /* 1st: horizontal spaxcing 2nd: Vertical Spacing */
+    border-spacing: 0 5px;
+}
+
+.review b{
+    /* change font size of bolded text */
+    font-size: 25px;
+}
+
+.rev {
+    background-color: #040c14;
+    /* remove border of button */
+    border: none;
+    /* change text color inside button */
+    color: rgb(255, 255, 255);
+    /* In padding, 1st value is applied to top and bottom & 2nd value is applied to right and left */
+    padding: 15px 32px;
+    /* Shaping corner edges */
+    border-radius: 10px;
+    font-size: 16px;
+    /* 1st: top-bottom 2nd: right-left */
+    margin: 30% 5%;
+}
+
+
+
+
+
+/* css for Portfolio pages */
+.portfolio {
+    display: flex;
+    width: 70%;
+    height: 600px;
+    /* In margin, 1st value: top, 2nd value: right, 3rd value: bottom, 4th value: left */
+    margin: 8% 15% 10% 15%;
+    /* In box shadow propert: 1st value: horizontal offset, 2nd value: vertical offset, 3rd value: blur, 4th value: shadow size, 5th value: color  */
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.pp,
+.aboutme {
+    /* to give 50% width to each in portfolio div */
+    flex: 50%;
+}
+.aboutme h1{
+    text-align: center;
+}
+
+
+.portfolio img {
+    /* shaping corner edges */
+    margin-top: 5%;
+    margin-left: 8%;
+    /* shaping edges of img */
+    border-radius: 50%;
+    width: 80%;
+    height: 85%;
+}

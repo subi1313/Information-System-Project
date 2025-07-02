@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Supriya Pandey">
+    <meta name="description" content="Product Page">
+    <meta name="keyword" content="Watches, Watch, Rolex, Titan">
+    <title>Product</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- script tag for linking external JS -->
+    <script src="../js/script.js"></script>
+    <style>
+        /* Giving space from the top*/
+        .products h2 {
+            margin-top: 10px;
+        }
+
+        /*Container for keeping product images*/
+        .container {
+            margin: 2% 5% 2% 5%;
+            border-radius: 3%;
+        }
+
+        .container img {
+            height: 300px;
+            width: 400px;
+            border-radius: 2%;
+        }
+
+        .container p {
+            font-size: 20px;
+
+        }
+
+        /*for first row of products*/
+        .prod,
+        .prod2,
+        .prod3,
+        .prod4 {
+            margin: 2%;
+            display: flex;
+            margin-bottom: 60px;
+        }
+
+        /*for product border*/
+        .p1 {
+            margin-left: 5%;
+        }
+
+        /*button for the products*/
+        .btn1,
+        .btn2,
+        .btn3,
+        .btn4,
+        .btn5,
+        .btn6,
+        .btn7,
+        .btn8,
+        .btn9,
+        .btn10,
+        .btn11,
+        .btn12 {
+            position: absolute;
+            background-color: black;
+            padding: 15px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn1,
+        .btn2,
+        .btn3 {
+            top: 430px;
+        }
+
+
+        .btn4,
+        .btn5,
+        .btn6 {
+            top: 910px;
+        }
+
+        .btn7,
+        .btn8,
+        .btn9 {
+            top: 1380px;
+        }
+
+        .btn10,
+        .btn11,
+        .btn12 {
+            top: 1850px;
+        }
+
+        .btn1,
+        .btn4,
+        .btn7,
+        .btn10 {
+            left: 470px;
+        }
+
+        .btn2,
+        .btn5,
+        .btn8,
+        .btn11 {
+            left: 960px;
+        }
+
+        .btn3,
+        .btn6,
+        .btn9,
+        .btn12 {
+            left: 1440px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!--Logo-->
+        <img src="../assets/logo/image.png" width="10%" class="logo">
+        <!-- nav bar -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/product.html">Products</a>
+                </li>
+                <li>
+                    <a href="../pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="../pages/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="../pages/blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="products">
+                <h1 align="center" style="margin-top: 30px;">Our Collection Of Aesthetic Watches</h1>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="prod">
+                    <div class="p1">
+                        <img src="../assets/images/watches/1.jpg">
+                        <div class="cont1">
+                            <p align="center">Yolako Quartz<br>Price: $4399 USD<br> Crystal: PlexiGlass.</p>
+                            <button class="btn1"
+                                onclick="document.location.href='Product Detail/Yolako.html'">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/titanlagan.webp">
+                        <div class="cont1">
+                            <p align="center">Titan Women's Lagan Watch<br>Price: $330 USD<br>Crystal: None.</p>
+                            <button class="btn2"
+                                onclick="document.location.href='Product Detail/TitanWomenLagan.html'">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/2.jpg">
+                        <div class="cont1">
+                            <p align="center">Gaiety Date<br>Price: $10,100 USD<br> Crystal: Sapphire.</p>
+                            <button class="btn3"
+                                onclick="document.location.href='Product Detail/Gaiety.html'">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="prod2">
+                    <div class="p1">
+                        <img src="../assets/images/watches/5.jpg">
+                        <div class="cont1">
+                            <p align="center">  Jacques Show<br>Price: $9,000 USD<br> Crystal: Sapphire.</p>
+                            <button class="btn4"
+                                onclick="document.location.href='Product Detail/Jacques.html'">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/9.jpg">
+                        <p align="center">Tudor Pink Bay 58<br>Price: $3,800 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn5" onclick="document.location.href='Product Detail/Yolako.html'">Shop Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/10.jpg">
+                        <p align="center">Audemars Offshore Aestheic<br>Price: $25,400 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn6" onclick="document.location.href='Product Detail/Yolako.html'">Shop Now</button>
+                    </div>
+                </div>
+                <div class="prod3">
+                    <div class="p1">
+                        <img src="../assets/images/watches/11.jpg">
+                        <p align="center">IWC timer<br>Price: $6,500 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn7" onclick="document.location.href='Product Detail/Yolako.html'">Shop Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/12.jpg">
+                        <p align="center">Doxa Professional <br> Price: $1,890 USD <br> Crystal: Sapphire.</p>
+                        <button class="btn8" onclick="document.location.href='Product Detail/Gaiety.html'">Shop Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/7.jpg">
+                        <p align="center"> SEASTAR 1000  <br> Price: $575 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn9" onclick="document.location.href='Product Detail/Gaiety.html'">Shop Now</button>
+                    </div>
+                </div>
+                <div class="prod4">
+                    <div class="p1">
+                        <img src="../assets/images/watches/8.jpg">
+                        <p align="center">  Royal Oak 16202<br>Price: $33,200 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn10" onclick="document.location.href='Product Detail/Gaiety.html'">Shop Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/6.jpg">
+                        <p align="center"> Philippe Rose Gold <br>Price: $30,000<br> Crystal: Sapphire.</p>
+                        <button class="btn11" onclick="document.location.href='Product Detail/TitanWomenLagan.html'">Shop Now</button>
+                    </div>
+                    <div class="p1">
+                        <img src="../assets/images/watches/3.jpg">
+                        <p align="center">Vacheron Overseas<br>Price: $22,500 USD<br> Crystal: Sapphire.</p>
+                        <button class="btn12" onclick="document.location.href='Product Detail/TitanWomenLagan.html'">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <div class="OurCompany">
+                <h2>Our Comapany</h2>
+                <h2>Time Treasure</h2>
+                <p>Build your own legacy</p>
+                <p>Find the watches that finds your time</p>
+
+            </div>
+            <div class="contact">
+                <h2>Contact US</h2>
+                <p>+977 9812212847</p>
+                <p>timetreasure@info.com</p>
+                <p>Kamaladi, Kathmandu</p>
+                <p>Nepal</p>
+
+            </div>
+            <div class="aboutus">
+                <h2>About US</h2>
+                <a href="../pages/aboutus.html">Click Here To Know More About Us</a>
+                <p>Explore our collection today</p>
+                <p>Find what style of watch reflects you</p>
+            </div>
+        </div>
+        <div class="footcont">
+            <div class="socialmedia">
+                <h3>Join us on social media:</h3>
+                <a href="#"><img src="../assets/logo/facebook.svg" style="width: 40px; height: 40;"></a>
+                <a href="#"><img src="../assets/logo/instagram.svg" style="width: 40px; height: 40;"></a>
+            </div>
+            <div class="mode">
+                <h3>Click here to change mode: </h3>
+                <button class="modebtn1" onclick="Dark()">Dark</button>
+                <button class="modebtn2" onclick="Light()">Light</button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
